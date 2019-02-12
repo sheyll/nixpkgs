@@ -1387,6 +1387,8 @@ in
 
   esptool-ck = callPackage ../tools/misc/esptool-ck { };
 
+  esptoolchain = callPackage ../development/compilers/esd-idf { };
+
   ephemeralpg = callPackage ../development/tools/database/ephemeralpg {};
 
   et = callPackage ../applications/misc/et {};
